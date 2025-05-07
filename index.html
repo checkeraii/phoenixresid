@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phoenix Investments</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; color: #1a1a1a; }
+    header, footer { background-color: #111; color: white; text-align: center; padding: 20px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { width: 100%; max-width: 100%; border-bottom: 4px solid gold; }
+    .section { padding: 40px 20px; }
+    .dark-section { background-color: #111; color: white; }
+    .section h2 { color: gold; }
+    .team-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .team-member { max-width: 250px; text-align: center; }
+    .team-member img { width: 100%; border-radius: 8px; }
+    .team-member h4 { margin: 10px 0 5px; }
+    ul { list-style: none; padding: 0; }
+    ul li::before { content: "• "; color: gold; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Phoenix Investments</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <img src="images/preview-full.png" alt="Hero Banner" class="hero">
+
+  <section id="about" class="section">
+    <h2>About the Company</h2>
+    <p>Phoenix Investments is dedicated to providing innovative investment solutions and expert asset management. Our mission is to help clients achieve their financial goals through strategic planning and meticulous market analysis.</p>
+    <p><strong>Core Values:</strong> Expertise • Integrity • Performance • Client Focus</p>
+  </section>
+
+  <section id="products" class="section dark-section">
+    <h2>Investment Products</h2>
+    <ul>
+      <li>Equity Investment Portfolios</li>
+      <li>Fixed Income Instruments</li>
+      <li>Real Estate Investment Trusts (REITs)</li>
+      <li>Alternative Investments (private equity, hedge funds)</li>
+      <li>Cryptocurrency & Blockchain Opportunities</li>
+    </ul>
+  </section>
+
+  <section id="team" class="section">
+    <h2>Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="images/preview-full.png" alt="James Carter">
+        <h4>James Carter</h4>
+        <p><strong>CEO</strong><br>Oversees firm strategy and growth.</p>
+      </div>
+      <div class="team-member">
+        <img src="images/preview-full.png" alt="Sophia Lee">
+        <h4>Sophia Lee</h4>
+        <p><strong>Chief Investment Strategist</strong><br>Specializes in economic analysis and portfolio development.</p>
+      </div>
+      <div class="team-member">
+        <img src="images/preview-full.png" alt="Michael Johnson">
+        <h4>Michael Johnson</h4>
+        <p><strong>Managing Director</strong><br>Leads asset management operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section dark-section">
+    <h2>Contact Us</h2>
+    <form>
+      <p><label>Name:<br><input type="text" name="name" required></label></p>
+      <p><label>Email:<br><input type="email" name="email" required></label></p>
+      <p><label>Message:<br><textarea name="message" rows="6" required></textarea></label></p>
+      <p><button type="submit">Send Message</button></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Phoenix Investments. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
